@@ -15,7 +15,7 @@ class TestRegister:
         rp_obj.click_register()
 
     def test_register1(self, _driver):
-        rp_obj = RegisterPage(_driver)
+        rp_obj = RegisterPage1(_driver)
         rp_obj.select_gender()
         rp_obj.enter_fname()
         rp_obj.enter_lname()
