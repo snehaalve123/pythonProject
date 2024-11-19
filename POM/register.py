@@ -34,7 +34,7 @@ class RegisterPage:
 
     def enter_pwd(self):
         # driver.find_element(*reading_locator_obj['txt_pwd']).send_keys('Peter@123')
-        self.page_wrapper_obj.enter_text(reading_locator_obj['txt_pwd'], 'peter@123')
+        self.page_wrapper_obj.enter_text(reading_locator_obj['txt_pwd'], 'Peter@123')
 
     def enter_cpwd(self):
         # driver.find_element(*reading_locator_obj['txt_cpwd']).send_keys('Peter@123')
